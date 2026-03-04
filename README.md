@@ -57,8 +57,6 @@ Title: Tag Cloud
 Text: Browse all tags used across the site.
 ```
 
-> The numeric prefix in the folder name (e.g. `content/10_tags/`) is optional and controls the page's position in navigation.
-
 ### Template
 
 Copy [`samples/templates/tagcloud.php`](samples/templates/tagcloud.php) to `site/templates/tagcloud.php`, or write your own using the examples below.
