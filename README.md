@@ -4,9 +4,7 @@
 [![PHP 8.1](https://img.shields.io/badge/PHP_8.1+-777BB4?style=flat-square&logo=php&logoColor=fff)](https://www.php.net/)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
 
-A Kirby 5 plugin that provides a `$site->tagCounts()` site method — a modern replacement for the deprecated Kirby 2 `tagcloud()` helper.
-
-Render a tag cloud, filter pages by tag, and scope results by template — all without custom routes.
+A Kirby 5 plugin that provides a `$site->tagCounts()` site method for building of tag clouds and filtering pages by tag — all without custom routes or controllers.
 
 ```
 /tags              → full tag cloud, sorted by usage count
@@ -45,7 +43,7 @@ composer require ahoylemon/kirby-tagcloud
 
 ## Setup
 
-### 1. Content page
+### Content page
 
 Create a page at the slug `tags` with a content file named `tagcloud.txt`:
 
@@ -61,7 +59,7 @@ Text: Browse all tags used across the site.
 
 > The numeric prefix in the folder name (e.g. `content/10_tags/`) is optional and controls the page's position in navigation.
 
-### 2. Template
+### Template
 
 Copy [`samples/templates/tagcloud.php`](samples/templates/tagcloud.php) to `site/templates/tagcloud.php`, or write your own using the examples below.
 
@@ -229,12 +227,6 @@ Per-call options always take precedence over config values.
 |---|---|
 | [`samples/templates/tagcloud.php`](samples/templates/tagcloud.php) | Full tag cloud + filter results template |
 | [`samples/snippets/tags.php`](samples/snippets/tags.php) | Per-page tag list linking back to the tag cloud |
-
----
-
-## Disclaimer
-
-This plugin is provided "as is" with no guarantee. Use it at your own risk and always test it yourself before using it in a production environment. If you find any issues, please [create a new issue](https://github.com/ahoylemon/kirby-tagcloud/issues/new).
 
 ---
 
