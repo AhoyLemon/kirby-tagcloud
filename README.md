@@ -230,4 +230,4 @@ Per-call options always take precedence over config values.
 
 ## Credits
 
-Inspired by the Kirby 2 `tagcloud()` helper. Originally developed as part of [TheFPlus](https://github.com/AhoyLemon/TheFPlus).
+Inspired by the [Kirby 2 tagcloud by Bastian Allgeier](https://github.com/getkirby-v2/tagcloud-plugin).
