@@ -33,12 +33,6 @@ A Kirby 5 plugin that provides a `$site->tagCounts()` site method for building o
 git submodule add https://github.com/ahoylemon/kirby-tagcloud.git site/plugins/tagcloud
 ```
 
-### Composer
-
-```bash
-composer require ahoylemon/kirby-tagcloud
-```
-
 ---
 
 ## Setup
