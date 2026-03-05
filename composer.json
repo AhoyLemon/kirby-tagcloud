@@ -1,7 +1,7 @@
 {
   "name": "ahoylemon/kirby-tagcloud",
   "type": "kirby-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tag cloud and tag filtering for Kirby 5 — configurable field, template scope, min-count, sort order, and limit",
   "homepage": "https://github.com/ahoylemon/kirby-tagcloud",
   "license": "MIT",
