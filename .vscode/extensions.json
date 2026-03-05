@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "medienbaecker.kirby-snippets",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ]
+}
